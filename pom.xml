@@ -12,8 +12,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<red5.version>1.0.7-RELEASE</red5.version>
-		<red5.version>1.0.7-RELEASE</red5.version>
+		<red5.version>1.0.9-RELEASE</red5.version>
+		<red5.version>1.0.9-RELEASE</red5.version>
 	</properties>
 
 	<build>
@@ -74,10 +74,10 @@
 						<configuration>
 							<tasks>
 								<copy todir="${project.build.directory}">
-									<fileset dir="${project.build.scriptSourceDirectory}" />
+									<fileset dir="${project.build.scriptSourceDirectory}"/>
 								</copy>
-								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip" />
-								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip.sh" />
+								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip"/>
+								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip.sh"/>
 							</tasks>
 						</configuration>
 						<goals>
