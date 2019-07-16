@@ -74,10 +74,10 @@
 						<configuration>
 							<tasks>
 								<copy todir="${project.build.directory}">
-									<fileset dir="${project.build.scriptSourceDirectory}" />
+									<fileset dir="${project.build.scriptSourceDirectory}"/>
 								</copy>
-								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip" />
-								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip.sh" />
+								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip"/>
+								<chmod dir="${project.build.directory}" perm="a+rx" includes="red5sip.sh"/>
 							</tasks>
 						</configuration>
 						<goals>
@@ -107,7 +107,7 @@
 		<dependency>
 			<groupId>org.apache.openmeetings</groupId>
 			<artifactId>openmeetings-db</artifactId>
-			<version>3.1.2</version>
+			<version>4.0.9</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
